@@ -11,7 +11,7 @@ library(MASS)
 
 ```{r}
 # import input data from csv file
-shopping_data = as.matrix(read.csv(file="./customer_shopping_data.csv",header = TRUE))
+shopping_data = as.matrix(read.csv(file="/Users/suman/Desktop/msc-data-science/stat/assignment/customer_shopping.csv",header = TRUE))
 head(shopping_data)
 ```
 
